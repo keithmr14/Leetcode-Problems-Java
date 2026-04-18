@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class PlusOne {
 
-    public int[] plusOne(int[] digits) {
+    public static void plusOne(int[] digits) {
 
         System.out.println(Arrays.toString(digits) + " + 1");
 
@@ -23,10 +23,10 @@ public class PlusOne {
                 lastDig--;
 
             } else {
+                // return at this point if there's no need to increase array size
                 System.out.println("= " + Arrays.toString(digits) + "\n");
-                return digits;
+                return;
             }
-            // return at this point if there's no need to increase array size
         }
 
         // if left with a leading zero, increase array size and start with 1
@@ -37,23 +37,19 @@ public class PlusOne {
         System.arraycopy(digits, 0, incSize, 1, digits.length);
 
         System.out.println("= " + Arrays.toString(incSize) + "\n");
-
-        return incSize;
     }
 
     public static void main(String[] args) {
 
         System.out.println("66. Plus One\n");
 
-        PlusOne pl = new PlusOne();
-
         // example 1
         int[] array = {1, 2, 3};
-        pl.plusOne(array);
+        plusOne(array);
 
         // example 1
         int[] array2 = {9};
-        pl.plusOne(array2);
+        plusOne(array2);
     }
 
 }
