@@ -43,19 +43,19 @@ public class ClosestTarget {
         System.out.println("2515. Shortest Distance to Target String in a Circular Array\n");
 
         // example 1
-        String[] array = {"hello", "i", "am", "leetcode", "hello"};
-        String target = "hello";
-        System.out.println("ARR: " + Arrays.toString(array));
-        System.out.println("Target: " + target + "\nStarting Index: " + 1);
-        int output = closestTarget(array, target, 1);
-        System.out.println("Closest Target Distance: " + output + "\n");
+        String[] a1 = {"hello", "i", "am", "leetcode", "hello"};
+        String t1 = "hello";
+        System.out.println("ARR: " + Arrays.toString(a1));
+        System.out.println("Target: " + t1 + "\nStarting Index: " + 1);
+        int out1 = closestTarget(a1, t1, 1);
+        System.out.println("Closest Target Distance: " + out1 + "\n");
 
         // example 2
-        String[] array2 = {"i", "eat", "leetcode"};
-        String target2 = "ate";
-        System.out.println("ARR: " + Arrays.toString(array2));
-        System.out.println("Target: " + target2 + "\nStarting Index: " + 0);
-        int output2 = closestTarget(array, target2, 0);
-        System.out.println("Closest Target Distance: " + output2 + "\n");
+        String[] a2 = {"i", "eat", "leetcode"};
+        String t2 = "ate";
+        System.out.println("ARR: " + Arrays.toString(a2));
+        System.out.println("Target: " + t2 + "\nStarting Index: " + 0);
+        int out2 = closestTarget(a1, t2, 0);
+        System.out.println("Closest Target Distance: " + out2 + "\n");
     }
 }

@@ -31,15 +31,15 @@ class RemoveElement {
         System.out.println("27. Remove Element\n");
 
         // example 1
-        int[] array = {0, 1, 0, 2, 0, 3};
-        System.out.println("ORG: " + Arrays.toString(array));
+        int[] a1 = {0, 1, 0, 2, 0, 3};
+        System.out.println("ORG: " + Arrays.toString(a1));
         System.out.println("Remove: " + 0);;
-        System.out.println(removeElement(array, 0) + " valid element/s left.\n");
+        System.out.println(removeElement(a1, 0) + " valid element/s left.\n");
 
         // example 2
-        int[] array2 = {0, 0, 0, 0, 0, 0};
-        System.out.println("ORG: " + Arrays.toString(array2));
+        int[] a2 = {0, 0, 0, 0, 0, 0};
+        System.out.println("ORG: " + Arrays.toString(a2));
         System.out.println("Remove: " + 1);
-        System.out.println(removeElement(array2, 1) + " valid element/s left.\n");
+        System.out.println(removeElement(a2, 1) + " valid element/s left.\n");
     }
 }

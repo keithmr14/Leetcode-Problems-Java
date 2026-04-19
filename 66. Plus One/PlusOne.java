@@ -39,15 +39,15 @@ public class PlusOne {
         System.out.println("66. Plus One\n");
 
         // example 1
-        int[] array = {1, 2, 3};
-        System.out.println(Arrays.toString(array) + " + 1");
-        int[] output = plusOne(array);
-        System.out.println("= " + Arrays.toString(output) + "\n");
+        int[] a1 = {1, 2, 3};
+        System.out.println(Arrays.toString(a1) + " + 1");
+        int[] out1 = plusOne(a1);
+        System.out.println("= " + Arrays.toString(out1) + "\n");
 
         // example 1
-        int[] array2 = {9};
-        System.out.println(Arrays.toString(array2) + " + 1");
-        int[] output2 = plusOne(array2);
-        System.out.println("= " + Arrays.toString(output2) + "\n");
+        int[] a2 = {9};
+        System.out.println(Arrays.toString(a2) + " + 1");
+        int[] out2 = plusOne(a2);
+        System.out.println("= " + Arrays.toString(out2) + "\n");
     }
 }

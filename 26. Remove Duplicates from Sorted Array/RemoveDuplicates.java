@@ -23,13 +23,13 @@ public class RemoveDuplicates {
         System.out.println("26. Remove Duplicates from Sorted Array\n");
 
         // example 1
-        int[] array = {1, 2, 2, 3, 3, 4, 5, 6, 7, 8};
-        System.out.println("ORG: " + Arrays.toString(array));
-        System.out.println(removeDuplicates(array) + " valid element/s left.\n");
+        int[] a1 = {1, 2, 2, 3, 3, 4, 5, 6, 7, 8};
+        System.out.println("ORG: " + Arrays.toString(a1));
+        System.out.println(removeDuplicates(a1) + " valid element/s left.\n");
 
         // example 2
-        int[] array2 = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
-        System.out.println("ORG: " + Arrays.toString(array2));
-        System.out.println(removeDuplicates(array2) + " valid element/s left.\n");
+        int[] a2 = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+        System.out.println("ORG: " + Arrays.toString(a2));
+        System.out.println(removeDuplicates(a2) + " valid element/s left.\n");
     }
 }
