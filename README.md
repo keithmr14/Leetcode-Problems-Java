@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Java LeetCode Solutions 🚀</h1>
   <p>
-    <b>Connect Me on LeetCode:</b> 
+    <b>Find Me on LeetCode:</b> 
     <a href="https://leetcode.com/u/keithmr14/">
       <code>keithmr14</code> 🔗
     </a>
@@ -15,7 +15,7 @@
 
 | <img src="https://img.shields.io/badge/-Easy-brightgreen" height="25"> | <img src="https://img.shields.io/badge/-Medium-yellow" height="25"> | <img src="https://img.shields.io/badge/-Hard-red" height="25"> |
 | :---: | :---: | :---: |
-| **18** Solved | **5** Solved | **0** Solved |
+| **18** Solved | **6** Solved | **0** Solved |
 
 ---
 
