@@ -46,9 +46,11 @@ public class RomanToInt {
         System.out.println("13. Roman to Integer\n");
 
         // example 1
-        System.out.println("IV = " + romanToInt("IV") + "\n");
+        String s1 = "XCI";
+        System.out.println(s1 + " = " + romanToInt(s1) + "\n");
 
         // example 2
-        System.out.println("IX = " + romanToInt("IX") + "\n");
+        String s2 = "CDI";
+        System.out.println(s2 + " = " + romanToInt(s2) + "\n");
     }
 }
