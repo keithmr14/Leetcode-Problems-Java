@@ -22,7 +22,7 @@
 ### 🛠️ Environment & Tools
 - **Language:** Java (OpenJDK)
 - **IDE:** IntelliJ IDEA / VS Code
-- **Organization:** Problems are categorized by difficulty and named after their LeetCode ID.
+- Problems are categorized by difficulty and named after their LeetCode ID.
 
 ---
 
