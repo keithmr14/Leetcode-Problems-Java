@@ -7,6 +7,7 @@
     </a>
   </p>
   <p>A compilation of coding challenges I solved using <b>Java</b>.</p>
+  <p><em>Problems are categorized by difficulty and named after their LeetCode ID.</em></p>
 </div>
 
 ---
@@ -22,10 +23,9 @@
 ### 🛠️ Environment & Tools
 - **Language:** Java (OpenJDK)
 - **IDE:** IntelliJ IDEA / VS Code
-- Problems are categorized by difficulty and named after their LeetCode ID.
 
 ---
 
 <div align="center">
-  <p><em>Easy? More like k*LL me.</em></p>
+  <p><em>It's just keeps getting harder I'm afraid.</em></p>
 </div>
