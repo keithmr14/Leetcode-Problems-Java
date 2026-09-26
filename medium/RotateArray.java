@@ -35,12 +35,14 @@ public class RotateArray {
         int[] a1 = {1, 2, 3, 4, 5, 6, 7};
         int k1 = 3;
         System.out.println("\nArray: " + Arrays.toString(a1));
+        System.out.println("Shift Right: " + k1);
         rotate(a1, k1);
 
         // example 2
         int[] a2 = {-1, -100, 3, 99};
         int k2 = 2;
         System.out.println("\nArray: " + Arrays.toString(a2));
+        System.out.println("Shift Right: " + k2);
         rotate(a2, k2);
     }
 }
