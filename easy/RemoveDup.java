@@ -38,11 +38,11 @@ public class RemoveDup {
         // example 1
         int[] a1 = {1, 2, 2, 3, 3, 4, 5, 6, 7, 8};
         System.out.println("\nArray: " + Arrays.toString(a1));
-        System.out.println("Unique Elements: " + removeDuplicates(a1));
+        System.out.println("# of Unique Elements: " + removeDuplicates(a1));
 
         // example 2
         int[] a2 = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
         System.out.println("\nArray: " + Arrays.toString(a2));
-        System.out.println("Unique Elements: " + removeDuplicates(a2));
+        System.out.println("# of Unique Elements: " + removeDuplicates(a2));
     }
 }
