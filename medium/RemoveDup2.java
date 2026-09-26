@@ -46,11 +46,11 @@ public class RemoveDup2 {
         // example 1
         int[] a1 = {1, 1, 1, 2, 2, 3};
         System.out.println("\nArray: " + Arrays.toString(a1));
-        System.out.println("# of Unique Element and their 2nd Recurrence: " + removeDuplicates(a1));
+        System.out.println("# of Unique Elements and their 2nd Recurrence: " + removeDuplicates(a1));
 
         // example 2
         int[] a2 = {0, 0, 1, 1, 1, 1, 2, 3, 3};
         System.out.println("\nArray: " + Arrays.toString(a2));
-        System.out.println("# of Unique Element and their 2nd Recurrence: " + removeDuplicates(a2));
+        System.out.println("# of Unique Elements and their 2nd Recurrence: " + removeDuplicates(a2));
     }
 }
