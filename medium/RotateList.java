@@ -39,8 +39,8 @@ public class RotateList {
         int k1 = 2;
         ListNode h1 = buildList(a1);
         System.out.println("\nShift Right: " + k1);
-        System.out.println("Array: " +  Arrays.toString(a1));
-        System.out.print("Rotated: ");
+        System.out.println("List: " +  Arrays.toString(a1));
+        System.out.print("Rotated List: ");
         printList(rotateRight(h1, k1));
 
         // example 2
@@ -48,8 +48,8 @@ public class RotateList {
         int k2 = 4;
         ListNode h2 = buildList(a2);
         System.out.println("\nShift Right: " + k2);
-        System.out.println("Array: " +  Arrays.toString(a2));
-        System.out.print("Rotated: ");
+        System.out.println("List: " +  Arrays.toString(a2));
+        System.out.print("Rotated List: ");
         printList(rotateRight(h2, k2));
     }
 }
