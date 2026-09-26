@@ -7,6 +7,8 @@ public class RemoveDup {
 
     public static int removeDuplicates(int[] nums) {
 
+        if(nums.length == 0) return 0;
+
         // remove this to reduce runtime in leetCode, but add it outside leetCode
         if(!isNonDecreasingArray(nums))
             throw new IllegalArgumentException("array must be non-decreasing");
