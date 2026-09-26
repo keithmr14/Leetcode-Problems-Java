@@ -22,29 +22,27 @@ public class MergeTwoList {
 
             if(l2Null) { curr.next = list1; break; }
 
-            else if(l1Null) { curr.next = list2; break; }
+            if(l1Null) { curr.next = list2; break; }
 
-            else {
-                if(list1.val < list2.val) {
-                    // when list1 value is less than, add it to merged
-                    curr.next = list1;
-                    curr = curr.next;
-                    list1 = list1.next;
-                }
-                else if(list2.val < list1.val) {
-                    // when list2 value is less than, add it to merged
-                    curr.next = list2;
-                    curr = curr.next;
-                    list2 = list2.next;
-                }
-                else { // if equal, add both to merged
-                    curr.next = list1;
-                    curr = curr.next;
-                    list1 = list1.next;
-                    curr.next = list2;
-                    curr = curr.next;
-                    list2 = list2.next;
-                }
+            if(list1.val < list2.val) {
+                // when list1 value is less than, add it to merged
+                curr.next = list1;
+                curr = curr.next;
+                list1 = list1.next;
+            }
+            else if(list2.val < list1.val) {
+                // when list2 value is less than, add it to merged
+                curr.next = list2;
+                curr = curr.next;
+                list2 = list2.next;
+            }
+            else { // if equal, add both to merged
+                curr.next = list1;
+                curr = curr.next;
+                list1 = list1.next;
+                curr.next = list2;
+                curr = curr.next;
+                list2 = list2.next;
             }
         }
         return dummy.next; // return merged list
