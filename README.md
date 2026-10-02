@@ -21,7 +21,7 @@ Real-world applications crash when fed bad data. To bridge the gap between algor
 **Key Features:**
 * **Defensive Mechanisms:** Prevents bad inputs from silently producing incorrect results.
 * **Custom Utilities:** A dedicated `utils` folder containing custom data structures (`ListNode`, `TreeNode`) and helper methods (like `ArrayUtils` and `ListUtils`) to build and validate test cases.
-* **Extensive Documentation:** All custom exception triggers and personalized messages are thoroughly documented in the repository's [Wiki](link-to-your-wiki).
+* **Extensive Documentation:** All custom exception triggers and personalized messages are thoroughly documented in the repository's [Wiki](https://github.com/keithmr14/Leetcode-Problems-Java/wiki).
 
 ---
 
