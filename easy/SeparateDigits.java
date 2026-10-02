@@ -10,13 +10,13 @@ public class SeparateDigits {
 
         for (int num : nums) {
 
-            if (num < 0) throw new IllegalArgumentException("integer elements mustn't be less than 0");
+            if (num < 0) throw new IllegalArgumentException("integer elements mustn't be negative");
 
             String numStr = String.valueOf(num);
             digits += numStr.length();
 
             if(digits > 10_000_000) throw new IllegalStateException(
-                    "result array length exceeded maximum size of 10,000,000");
+                    "result array length exceeded set maximum size of 10,000,000");
         }
 
         int[] result = new int[digits];
