@@ -11,7 +11,7 @@ public class MaxElemDecrease {
         int max = 1;
         Arrays.sort(arr);
 
-        if(arr[0] < 1) throw new IllegalArgumentException("integer " + arr[0] + " mustn't be less than 1");
+        if(arr[0] < 1) throw new IllegalArgumentException("integer elements must be positive");
 
         arr[0] = 1;
 
