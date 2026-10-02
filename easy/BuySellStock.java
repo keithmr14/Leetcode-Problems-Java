@@ -18,7 +18,7 @@ public class BuySellStock {
                 maxProfit = Math.max(maxProfit, diff);
             }
             catch(ArithmeticException e) { throw new ArithmeticException(
-                    "exception from " + prices[i] + " - " + cheapest + " due to integer overflow at index " + i); }
+                    "exception from " + prices[i] + " - " + cheapest + " due to integer overflow"); }
 
             cheapest = Math.min(cheapest, prices[i]);
         }
