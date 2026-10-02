@@ -2,7 +2,7 @@ package easy;
 
 import java.util.Arrays;
 
-public class NumOfSmallerInt {
+public class NoOfSmallerInts {
 
     public static int[] smallerNumbersThanCurrent(int[] nums) {
 
