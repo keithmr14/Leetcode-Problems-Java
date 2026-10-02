@@ -7,7 +7,7 @@
     </a>
   </p>
   <p>A compilation of coding challenges I solved using <b>Java</b>.</p>
-  <p><em>Problems are categorized by difficulty and named after their problem titles.</em></p>
+  <p><em>Problems are categorized by difficulty and named after their LeetCode problem titles.</em></p>
 </div>
 
 ---
